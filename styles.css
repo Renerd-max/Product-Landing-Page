@@ -1,0 +1,304 @@
+
+
+body{
+    background-color:#e6ccff;
+    font-family:Candara, Century Gothic;
+  }
+  
+  #header{
+     display:flex;
+     align-items:center;
+     justify-content:space-around;
+     position:fixed;
+     background-color:white;
+     color:white;
+     margin:-10px;
+     width:100%;
+     padding-bottom:10px;
+     border-radius:0 0 100% 1000%;
+  }
+  
+  #header-img{
+    height:50px;
+    width:300px;
+    margin:5px;
+  }
+  
+  .nav-link{
+    margin:10px 20px;
+    text-decoration:none;
+    color:black;
+  }
+  
+  #identity{
+    display:grid;
+    grid-template-columns:1fr 3fr;
+  }
+  
+  h1, h2, h3{
+    font-family:Courier, Courier New;
+  }
+  
+  main{
+    padding-top:9%;
+    color:#1a0000;
+  }
+  
+  #title{
+    font-size:20px;
+    margin-bottom:10px;
+    text-align:center;
+  }
+  
+  form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  #email, #text{
+    width:300px;
+    margin-top:10px;
+    border:1px solid transparent;
+    border-radius:5px;
+    background-color:#f2e6ff;
+    padding:5px;
+  }
+  
+  #submit{
+    width:200px;
+    margin-top:10px;
+    border:1px solid transparent;
+    border-radius:5px;
+    background-color:green;
+    color:white;
+  }
+  
+  #features{
+    background-color:white;
+    border-radius:5px;
+    padding:0 10px;
+    width:60%;
+    margin:auto;
+  }
+  
+  .feature{
+    display:grid;
+    margin:30px auto;
+    grid-template-columns:0.5fr 2fr;
+    align-items:center;
+    padding:5px;
+  }
+  
+  .feat-image{
+    width:100px;
+    height:150px;
+    color:purple;
+  }
+  
+  .feat-head{
+    font-size:20px;
+  }
+  
+  #video{
+    margin:100px auto;
+    display:flex;
+    align-self:center;
+  }
+  
+  #prices{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+  }
+  
+  .price{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    background-color:white;
+    margin:10px 5px;
+    border-radius:5px;
+    padding:5px;
+  }
+  
+  .p-head{
+    background-color:#cc99ff;
+    color:white;
+    width:100%;
+  }
+  
+  .p-title{
+    font-size:20px;
+    font-weight:bold;
+  }
+  
+  .p-desc{
+    font-size:14px;
+    font-style:italic;
+  }
+  
+  .p-price{
+    font-size:25px;
+    font-weight:bold;
+  }
+  
+  .p-image{
+    width:200px;
+    height:250px;
+  }
+  
+  .p-button{
+    border:1px solid transparent;
+    color:white;
+    background-color:green;
+    padding:5px;
+    border-radius:5px;
+  }
+  
+  #cart{
+    position:fixed;
+    top:30%;
+    right:2%;
+    width:50px;
+    height:50px;
+    color:green;
+  }
+  
+  #foot{
+    margin-top:50px;
+    text-align:center;
+  }
+  
+  @media screen and (max-width:768px){
+    #header-img{
+    height:40px;
+    width:250px;
+    margin:5px;
+  }
+  
+  #features{
+    width:80%;
+  }
+  
+  .feature{
+    grid-template-columns:0.7fr 2fr;
+  }
+  
+  .feat-image{
+    width:90px;
+    height:140px;
+  }
+  
+  .p-image{
+    width:150px;
+    height:200px;
+  }
+  
+  #cart{
+    width:35px;
+    height:35px;
+  }
+  
+  #prices{
+    display:grid;
+    grid-template-columns:1fr;
+    width:65%;
+    margin:auto;
+  }
+  
+  .foot-image{
+    width:250px;
+    height:50px;
+  }
+  
+  }
+  
+  @media screen and (max-width:700px){
+    #header{
+     display:grid;
+     grid-template-columns:1fr;
+     justify-items:center;
+     position:fixed;
+     background-color:#e6ccff;
+     margin:-10px;
+     width:100%;
+     margin-bottom:10px;
+     border-radius:0px;
+  }
+  
+  .feat-image{
+    display:none;
+  }
+  
+  .feature{
+    grid-template-columns:1fr;
+  }
+  
+  #features{
+    width:90%;
+  }
+  
+  .feat-head{
+    color:purple;
+  }
+  
+  .feat-para{
+    font-size:16px;
+  }
+  
+  #title{
+    margin-top:20%;
+  }
+  
+  #prices{
+    width:80%;
+  }
+  }
+  
+  @media screen and (max-width:440px){
+    #header{
+     display:grid;
+     grid-template-columns:1fr;
+     justify-items:center;
+     position:fixed;
+     background-color:#e6ccff;
+     margin:-10px;
+     width:100%;
+     margin-bottom:10px;
+     border-radius:0px;
+  }
+  
+  .nav-link{
+    display:flex;
+  }
+  
+  .feat-image{
+    display:none;
+  }
+  
+  .feature{
+    grid-template-columns:1fr;
+  }
+  
+  #features{
+    width:95%;
+  }
+  
+  .feat-head{
+    color:purple;
+  }
+  
+  .feat-para{
+    font-size:14px;
+  }
+  
+  #title{
+    margin-top:40%;
+    font-size:16px;
+  }
+  
+  #prices{
+    width:90%;
+  }
+  }
+  
